@@ -5,7 +5,7 @@
   --dark-blue: hsl(218, 44%, 22%);
   --light-blue: hsl(228, 45%, 44%);
 
-  --font-color: #202c42;
+  --font-color: #2e3a4c;
   --font-color-light: #9fa1a5;
   --background-color: var(--light-grey);
   --card-background-color: var(--white);
@@ -102,6 +102,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   background-color: var(--background-color);
+  color: var(--font-color);
   font-size: var(--font-size);
   font-weight: var(--font-normal);
   font-family: var(--font-family);
@@ -121,7 +122,7 @@ footer {
   background-color: var(--card-background-color);
   padding: var(--padding);
   border-radius: var(--border-radius);
-  max-width: 285px;
+  max-width: 320px;
   -webkit-box-shadow: var(--box-shadow);
   -moz-box-shadow: var(--box-shadow);
   box-shadow: var(--box-shadow);
