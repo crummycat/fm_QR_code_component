@@ -1,0 +1,88 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+  --light-blue: hsl(228, 45%, 44%);
+
+  --font-color: #202c42;
+  --font-color-light: #9fa1a5;
+  --background-color: var(--light-grey);
+  --card-background-color: var(--white);
+  --box-shadow-color: var(--grayish-blue);
+  --link-color: var(--light-blue);
+
+  --padding: 17px;
+  --border-radius: 17px;
+  --border-radius-image: 10px;
+  --box-shadow: rgba(123, 135, 157, 0.3) 2px 2px 13px 0px;
+  --font-family: "Outfit", sans-serif;
+  --font-normal: 400;
+  --font-bold: 700;
+  --font-size: 1rem;
+  --font-size-body: 0.93rem;
+  --font-size-title: 1.35rem;
+  --font-size-small: 0.65rem;
+}
+
+/* Utilities */
+.text-center {
+  text-align: center;
+}
+img {
+  width: 100%;
+  border-radius: var(--border-radius-image);
+}
+
+/* Layout */
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--background-color);
+  font-size: var(--font-size);
+  font-weight: var(--font-normal);
+  font-family: var(--font-family);
+  display: flex;
+  flex-direction: column;
+}
+main {
+  margin: 0 auto;
+  padding-top: 11vh;
+}
+footer {
+  margin-top: auto;
+}
+
+/* Card */
+.card {
+  background-color: var(--card-background-color);
+  padding: var(--padding);
+  border-radius: var(--border-radius);
+  max-width: 285px;
+  -webkit-box-shadow: var(--box-shadow);
+  -moz-box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow);
+}
+.card-info {
+  margin: 0 auto;
+  padding: var(--padding);
+}
+.card-title {
+  font-weight: var(--font-bold);
+  font-size: var(--font-size-title);
+  padding-bottom: var(--padding);
+}
+.card-body {
+  font-size: var(--font-size-body);
+  color: var(--font-color-light);
+}
+
+/* Attribution */
+.attribution {
+  font-size: var(--font-size-small);
+  text-align: right;
+  padding: var(--padding);
+}
+.attribution a {
+  color: var(--link-color);
+}
